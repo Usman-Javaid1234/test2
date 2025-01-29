@@ -13,3 +13,5 @@ then "git remote add origin (HTTP repo link)".
 "git checkout -b  (branch name)" to create new branch.
 
 Some more changes in branch.
+
+"git diff (branch name)" from master to compare the 2 codes and see what is added and what is removed.
