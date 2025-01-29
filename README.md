@@ -7,3 +7,5 @@ then git remote add origin HTTP repo link.
 
 git remote -v to show connected repos
 git push -u origin main/master/branchname to keep pushing to that repo/branch without writing onto that repo without writing origin main/etc.
+
+Some more description
