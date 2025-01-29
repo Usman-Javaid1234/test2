@@ -37,3 +37,9 @@ Use "git merge (branch name)"  to merge code from one branch to your current bra
 
 Resetted changes using command "git reset".
 Can also use "git reset (file name)".
+"git reset HEAD" HEAD points to last commit.
+"git reset HEAD~1" the ~1 makes it so that HEAD points to 1 commit before last commit, so it resets the changes made in last commit.
+
+"git log" to see a log of commits.
+
+"git reset (hash of a commit)" to go to that specific commit.
