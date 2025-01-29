@@ -42,4 +42,6 @@ Can also use "git reset (file name)".
 
 "git log" to see a log of commits.
 
-"git reset (hash of a commit)" to go to that specific commit.
+"git reset (hash of a commit)" to go to that specific commit. It marks the specific lines not saved yet
+
+"git reset --hard (hash of a commit)" to remove those lines completely and not only mark the lines to be removed.
