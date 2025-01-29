@@ -15,3 +15,5 @@ then "git remote add origin (HTTP repo link)".
 Some more changes in branch.
 
 "git diff (branch name)" from master to compare the 2 codes and see what is added and what is removed.
+
+"git push --set-upstream origin feature/adding-instructions" to push code to branch in github repo.
