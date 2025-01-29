@@ -3,7 +3,7 @@ Use "git init" for initializing the repo on local machine. Adds ".git" file in t
 
 use "git add ."
 "git commit -m (message)"
-then "git remote add origin (HTTP repo link)".
+then "git remote add origin (HTTP repo link)" to connect to the repo created in github.
 
 "git remote -v" to show connected repos
 "git push -u origin main/master/branchname" to keep pushing to that repo/branch without writing onto that repo without writing origin main/etc.
@@ -50,4 +50,9 @@ Can also use "git reset (file name)".
 
 Forking creates a whole copy of a repository to you. You can pull that repo onto your local machine, make changes, push those changes to your copy of that repo/project and initiate a PR to the owner of the repo you copied so that your changes may be merged into the original project.
 
-Something to pull
+##Pulling
+
+use "git pull" if upstream is set
+use "git pull origin master" to get current master branch. 
+use "git pull -u origin master" to set master as upstream.
+use "git pull -u origin (branch name)" to set any branch as upstream.
