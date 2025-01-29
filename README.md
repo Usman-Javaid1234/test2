@@ -29,4 +29,7 @@ If upstream is set then we use "git pull".
 
 To delete a branch use "git branch -d (branch name)"
 
-Written master
+Use "git commit -am (message)" to add and commit with message at the same time. Only works with modified files.
+
+Use "git merge (branch name)"  to merge code from one branch to your current branch. Useful if main/master in github keeps getting changed from other members PRs or merges and you have to stay upto date in your current branch so that there are no merge conflicts in the future. Also try to resolve conflicts in code editor, much easier.
+
