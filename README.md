@@ -28,3 +28,5 @@ If upstream is set then we use "git pull".
 
 
 To delete a branch use "git branch -d (branch name)"
+
+Written master
