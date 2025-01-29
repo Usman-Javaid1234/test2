@@ -9,4 +9,7 @@ then "git remote add origin (HTTP repo link)".
 "git push -u origin main/master/branchname" to keep pushing to that repo/branch without writing onto that repo without writing origin main/etc.
 
 "git branch" to check which branch you are on.
-"git checkout -b  (branch name)" to create new branch
+
+"git checkout -b  (branch name)" to create new branch.
+
+Some more changes in branch.
