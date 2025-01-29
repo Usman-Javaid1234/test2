@@ -49,3 +49,5 @@ Can also use "git reset (file name)".
 ##Forking
 
 Forking creates a whole copy of a repository to you. You can pull that repo onto your local machine, make changes, push those changes to your copy of that repo/project and initiate a PR to the owner of the repo you copied so that your changes may be merged into the original project.
+
+Something to pull
