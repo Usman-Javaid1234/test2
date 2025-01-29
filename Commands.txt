@@ -1,0 +1,36 @@
+Git Bash Commands:
+# List files
+ls
+ls | grep testkey
+
+# SSH Commands
+ssh-keygen -t rsa -f testkey    # Generate SSH key
+eval "$(ssh-agent -s)"          # Start SSH agent
+ssh-add ~/.ssh/testkey          # Add SSH key
+ssh -T git@github.com           # Test GitHub connection
+
+# Git Commands
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+git add .                       # Stage all files
+git commit -m "message"         # Commit changes
+git push                        # Push to repository
+git status                      # Check repository status
+
+PowerShell Commands:
+# List files
+ls -Force                                           # Show all files including hidden
+Get-ChildItem -Force                                # Same as above
+
+# SSH Agent Service Commands (Run as Administrator)
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+Start-Service ssh-agent
+
+
+Directory Movement Commands (Both Git Bash & PowerShell):
+mkdir -p ~/.ssh        # Create .ssh directory
+cd ~/.ssh             # Navigate to .ssh directory
+
+File Permissions (Git Bash):
+chmod 600 ~/.ssh/testkey      # Set private key permissions
+chmod 644 ~/.ssh/testkey.pub  # Set public key permissions
