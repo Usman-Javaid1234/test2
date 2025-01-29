@@ -45,3 +45,7 @@ Can also use "git reset (file name)".
 "git reset (hash of a commit)" to go to that specific commit. It marks the specific lines not saved yet
 
 "git reset --hard (hash of a commit)" to remove those lines completely and not only mark the lines to be removed.
+
+##Forking
+
+Forking creates a whole copy of a repository to you. You can pull that repo onto your local machine, make changes, push those changes to your copy of that repo/project and initiate a PR to the owner of the repo you copied so that your changes may be merged into the original project.
