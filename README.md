@@ -20,3 +20,11 @@ Some more changes in branch.
 
 
 "--set-upstream" can be replaced with "-u"
+
+You make changes by creating branch, and then initiate a pull request, which is accepted by the repo owner and then by accepting the pull request, the branch is merged with main/master. 
+
+To get the changes in local machine we use "git pull origin main/master".
+If upstream is set then we use "git pull".
+
+
+To delete a branch use "git branch -d (branch name)"
