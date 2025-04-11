@@ -34,3 +34,4 @@ cd ~/.ssh             # Navigate to .ssh directory
 File Permissions (Git Bash):
 chmod 600 ~/.ssh/testkey      # Set private key permissions
 chmod 644 ~/.ssh/testkey.pub  # Set public key permissions
+.aaa
